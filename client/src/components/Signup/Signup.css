@@ -1,0 +1,47 @@
+.donate {
+  padding: 20px !important;
+
+  /* box-shadow: 2px 3px 3px #eee; */
+}
+.column-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0 !important;
+  padding-top: 0;
+}
+.sections {
+  margin-top: 0;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.donate-h2 {
+  background: #fff;
+  padding-top: 6px;
+  margin: 0 !important;
+  width: 10%;
+  border-radius: 10px 10px 0 0;
+}
+h2 {
+  margin: 0;
+}
+.have-account {
+  color: #8467f8;
+  font-weight: 600;
+  margin: 0 !important;
+}
+.have-account a {
+  text-decoration: none;
+}
+@media screen and (max-width: 786px) {
+  .sections {
+    width: 90%;
+    padding: 20px;
+  }
+  .form-control.btn {
+    width: 100%;
+  }
+  .donate-h2 {
+    width: 40%;
+  }
+}

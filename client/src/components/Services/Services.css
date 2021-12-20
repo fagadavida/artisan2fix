@@ -1,0 +1,31 @@
+.serices-container {
+  background: #33ff33;
+  /* background: #dee9ff; */
+}
+/* Float four columns side by side */
+.column {
+  width: 25%;
+  /* padding: 0 10px; */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+}
+
+@media screen and (max-width: 786px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .card {
+    width: 100%;
+  }
+}
